@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+
+
+img{
+  max-width: 100%;
+  border-radius: 8px;
+
+}
+body{
+  background-color:black;
+  color: #424242;
+  font-family: 'Dosis', sans-serif;
+}
+
+.box{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px;
+}
+h2{
+  text-align: center;
+
+}
+#titulo{
+  background-color: #424242;
+  color:#CCC;
+  border-radius: 8px;
+  padding: 48px 32px;
+  border: 5px solid black;
+  font-family: 'Bowlby One SC', cursive;
+
+}
+main.box article{
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  margin: 15px;
+  border: 1px solid black;
+
+}
+
+article a{
+  text-decoration:  none;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  padding: 18px 28px;
+  display: inline-block;
+  border-radius: 8px;
+  transition: all 0.4s;
+
+}
+
+article a:hover {
+  color: orange;
+  border: 2px solid orange;
+}
+
+
+div{
+  text-align: center;
+}
+
+nav{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-gap: 10px;
+background-color: #424242;
+padding: 22px;
+border-radius: 8px;
+margin-bottom: 42px;
+transition: all 0.4s;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+nav a:hover{
+  color: orange;
+}
+
+
+footer{
+  color:white;
+}
